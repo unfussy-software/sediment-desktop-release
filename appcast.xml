@@ -1,0 +1,48 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Sediment</title>
+        <item>
+            <title>0.24.0</title>
+            <pubDate>Sun, 27 Sep 2026 07:03:15 +0000</pubDate>
+            <sparkle:version>59</sparkle:version>
+            <sparkle:shortVersionString>0.24.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.5</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[Sediment now updates itself, and a follow-up edit made on another Mac is no
+longer reported as a lost one.
+
+### What's new
+
+- Sediment checks for a newer version once a day while a window is open, and
+  Check for Updates… in the Sediment menu asks at once. The notes for the new
+  version are shown before anything is installed, and nothing is installed
+  until you say so.
+- Two Macs that edit the same artifact are told apart from one Mac editing
+  it twice. A follow-up made on another Mac is taken as the newer record;
+  only a genuinely concurrent edit is reported as a loss.
+- With the list holding the keyboard, J and K move the selection down and
+  up, and ⌥J and ⌥K jump to the last row and the first.
+- Refresh from Folder is ⌘R, and it ends a watching pause at once. The
+  notice that names the pause offers the button beside its line.
+- Activity says what each launch cost: how many artifacts were checked, how
+  long the check took, and how long bringing the shelf up to date took.
+- The Macs section of Settings sums itself up in one sentence under its
+  title, with a dot that turns orange while deletions are waiting on a Mac.
+
+### Changed
+
+- Rename File is ⇧⌘N, next to Edit Description on ⇧⌘D.
+
+### Fixed
+
+- The Keyboard Shortcuts sheet is as tall as its longer column, so its title
+  and Done button are no longer clipped.
+- A Mac with no computer name is called Unnamed Mac from every seat, instead
+  of This Mac from all of them.
+- The sediment command tells its own timeout apart from Sediment closing the
+  connection, and suggests waiting rather than a restart.
+]]></description>
+            <enclosure url="https://github.com/unfussy-software/sediment-desktop-release/releases/download/v0.24.0/Sediment-0.24.0.zip" length="7220028" type="application/octet-stream" sparkle:edSignature="NMAJNZgJqVRa+5/punllKBr+ziwXYcvTHgnmfr0mfl9ti1n4SxkQY8RZCxpIQ7TUbFJE58uosBMpvm8RsiowAA=="/>
+        </item>
+    </channel>
+</rss>
