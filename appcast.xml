@@ -3,6 +3,39 @@
     <channel>
         <title>Sediment</title>
         <item>
+            <title>0.25.0</title>
+            <pubDate>Tue, 29 Sep 2026 09:07:19 +0000</pubDate>
+            <sparkle:version>60</sparkle:version>
+            <sparkle:shortVersionString>0.25.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.5</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[Every artifact now has a link that opens it in Sediment, and a Share button
+to hand that link on.
+
+### What's new
+
+- Every artifact has a link of the form sediment://artifact/… that opens it
+  in Sediment from anywhere a link can be opened: a note, a message, a
+  document, a terminal. Sediment comes forward with the artifact selected,
+  launching first if it was not running, and switches to the Archive or the
+  Trash when that is where the artifact is. A link that names nothing on
+  this shelf says so.
+- A Share button sits beside Open. ⇧⌘C opens its menu with Copy Link
+  highlighted, so ⇧⌘C then Return copies the link; Share… opens the share
+  sheet with the link, headed by the artifact's title, for Messages, Mail,
+  Notes, AirDrop and the rest. Share is also in the File menu.
+- Go to Artifact reopens on the query it last closed with, selected, while
+  the window stays open. Typing replaces it, → keeps it to refine, and one
+  ⌫ shows recents again.
+- Save Diagnostic Report… in the Help menu writes a zip of what Sediment has
+  been doing, for attaching to an issue.
+- The sediment command names each artifact's file path in its answers, and
+  update --content replaces an artifact's content through Sediment rather
+  than by writing the file, refusing when the artifact changed since it was
+  read. Its help no longer invites editing a shelf file in place.
+]]></description>
+            <enclosure url="https://github.com/unfussy-software/sediment-desktop-release/releases/download/v0.25.0/Sediment-0.25.0.zip" length="7407495" type="application/octet-stream" sparkle:edSignature="OnBWNU6JIjaBDKK9OV0atLTtwPKsqE6hLIAFDyQR3TaDa0wXtV4S6qaqn3c+2H5tqEBofZLgPxSIYN6LyY8WDg=="/>
+        </item>
+        <item>
             <title>0.24.0</title>
             <pubDate>Sun, 27 Sep 2026 07:03:15 +0000</pubDate>
             <sparkle:version>59</sparkle:version>
