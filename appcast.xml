@@ -3,6 +3,33 @@
     <channel>
         <title>Sediment</title>
         <item>
+            <title>0.27.0</title>
+            <pubDate>Wed, 30 Sep 2026 15:57:24 +0000</pubDate>
+            <sparkle:version>64</sparkle:version>
+            <sparkle:shortVersionString>0.27.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.5</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[Sediment has a look of its own: three themes drawn from its logo, a new set
+of type, and a choice of font for each kind of text.
+
+### What's new
+
+- Three themes in Settings ▸ Appearance: Moss, Strata and Graphite, each in
+  light and dark. A theme colours the whole window — backgrounds, text, the
+  selected row, buttons, switches, the Info popover, Go to Artifact and the
+  notices above an artifact — and never the artifact itself. Moss is the
+  default.
+- The Accent row gives way to the themes, and the System, Light and Dark
+  choice is now called Mode. Adapt artifacts to mode keeps doing what it did.
+- New type throughout: Space Grotesk for titles, names and buttons, IBM Plex
+  Sans for descriptions, dates and counts, and IBM Plex Mono for file names,
+  shortcuts and times.
+- Choose the font for Headings, Text and File names in Settings ▸
+  Appearance, from any font on your Mac, with a sample line under the rows.
+  File names offers fixed-width fonts only.
+]]></description>
+            <enclosure url="https://github.com/unfussy-software/sediment-desktop-release/releases/download/v0.27.0/Sediment-0.27.0.zip" length="7834395" type="application/octet-stream" sparkle:edSignature="KXOw8NXauX4wEzLfSRlHuf56KEG/HhPaRgQWV4fc6kwHQwfxMNkBHJ16c8HLQSGZQgkjM9TVgUPW6fO4F0WWAA=="/>
+        </item>
+        <item>
             <title>0.25.0</title>
             <pubDate>Tue, 29 Sep 2026 09:07:19 +0000</pubDate>
             <sparkle:version>60</sparkle:version>
