@@ -3,6 +3,30 @@
     <channel>
         <title>Sediment</title>
         <item>
+            <title>0.28.2</title>
+            <pubDate>Sun, 04 Oct 2026 16:21:42 +0000</pubDate>
+            <sparkle:version>68</sparkle:version>
+            <sparkle:shortVersionString>0.28.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.5</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[The sidebar stays responsive on a large artifact, and the keyboard returns
+to the list after you edit a description.
+
+### What's new
+
+- The sediment command’s help is layered: sediment on its own prints a short
+  overview, and each command and topic has a page of its own.
+
+### Fixed
+
+- Selecting a large artifact no longer freezes the sidebar. On a 10 MB
+  artifact the list stalled for about a second at every landing, and again
+  when the arrow keys passed over it.
+- After ↩ or ⎋ in the description field, the arrow keys move the selection
+  again with no click in between.
+]]></description>
+            <enclosure url="https://github.com/unfussy-software/sediment-desktop-release/releases/download/v0.28.2/Sediment-0.28.2.zip" length="7940262" type="application/octet-stream" sparkle:edSignature="mTEgc52OuWD8C+KqQ5l2MQS3B0fgUhIpvWdA7lo4BTAniWN4ioyBS9v/8hR/Xu09v06TyVTEYtW7WM351pUwBw=="/>
+        </item>
+        <item>
             <title>0.28.1</title>
             <pubDate>Sun, 04 Oct 2026 06:28:52 +0000</pubDate>
             <sparkle:version>67</sparkle:version>
@@ -69,39 +93,6 @@ of type, and a choice of font for each kind of text.
   File names offers fixed-width fonts only.
 ]]></description>
             <enclosure url="https://github.com/unfussy-software/sediment-desktop-release/releases/download/v0.27.0/Sediment-0.27.0.zip" length="7834395" type="application/octet-stream" sparkle:edSignature="KXOw8NXauX4wEzLfSRlHuf56KEG/HhPaRgQWV4fc6kwHQwfxMNkBHJ16c8HLQSGZQgkjM9TVgUPW6fO4F0WWAA=="/>
-        </item>
-        <item>
-            <title>0.25.0</title>
-            <pubDate>Tue, 29 Sep 2026 09:07:19 +0000</pubDate>
-            <sparkle:version>60</sparkle:version>
-            <sparkle:shortVersionString>0.25.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.5</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[Every artifact now has a link that opens it in Sediment, and a Share button
-to hand that link on.
-
-### What's new
-
-- Every artifact has a link of the form sediment://artifact/… that opens it
-  in Sediment from anywhere a link can be opened: a note, a message, a
-  document, a terminal. Sediment comes forward with the artifact selected,
-  launching first if it was not running, and switches to the Archive or the
-  Trash when that is where the artifact is. A link that names nothing on
-  this shelf says so.
-- A Share button sits beside Open. ⇧⌘C opens its menu with Copy Link
-  highlighted, so ⇧⌘C then Return copies the link; Share… opens the share
-  sheet with the link, headed by the artifact's title, for Messages, Mail,
-  Notes, AirDrop and the rest. Share is also in the File menu.
-- Go to Artifact reopens on the query it last closed with, selected, while
-  the window stays open. Typing replaces it, → keeps it to refine, and one
-  ⌫ shows recents again.
-- Save Diagnostic Report… in the Help menu writes a zip of what Sediment has
-  been doing, for attaching to an issue.
-- The sediment command names each artifact's file path in its answers, and
-  update --content replaces an artifact's content through Sediment rather
-  than by writing the file, refusing when the artifact changed since it was
-  read. Its help no longer invites editing a shelf file in place.
-]]></description>
-            <enclosure url="https://github.com/unfussy-software/sediment-desktop-release/releases/download/v0.25.0/Sediment-0.25.0.zip" length="7407495" type="application/octet-stream" sparkle:edSignature="OnBWNU6JIjaBDKK9OV0atLTtwPKsqE6hLIAFDyQR3TaDa0wXtV4S6qaqn3c+2H5tqEBofZLgPxSIYN6LyY8WDg=="/>
         </item>
     </channel>
 </rss>
