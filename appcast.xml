@@ -3,6 +3,40 @@
     <channel>
         <title>Sediment</title>
         <item>
+            <title>0.29.0</title>
+            <pubDate>Wed, 07 Oct 2026 08:02:46 +0000</pubDate>
+            <sparkle:version>70</sparkle:version>
+            <sparkle:shortVersionString>0.29.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.5</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[An artifact can open in its own window, so you can read one or two while
+you browse the list, and the sidebar names the place you are in and lets
+you open a tag's collection from Go to… or from Info.
+
+### What's new
+
+- Open in New Window (⇧⌘↩, also in the Artifact menu and a row's context
+  menu) shows the selected artifact's preview in a separate window, titled
+  with the artifact's title, at the zoom the shelf had when it opened. The
+  shelf keeps the keyboard and the selection; ⌘W closes the window, and
+  moving the artifact to the Trash or deleting it closes it too. Asking
+  again for an artifact that is already open brings its window forward.
+- The line under the wordmark names the place you are in, with its count:
+  Shelf · 42 · 3 unread, Archive · 5, Trash · 2 · 248 KB.
+- A tag clicked in Info opens that tag's collection, an exact match, and
+  the subheader reads Shelf › #design · 12. Choosing the place you are in
+  leaves the collection; choosing another keeps it.
+- Go to Artifact… is now Go to… (⌘E). A query that starts with # lists the
+  tags of the place you are in with their counts, most used first, and ↩
+  on one lands on its collection.
+
+### Fixed
+
+- With the sidebar hidden, ↩ in the description field now lands the
+  keyboard in the page instead of stranding it.
+]]></description>
+            <enclosure url="https://github.com/unfussy-software/sediment-desktop-release/releases/download/v0.29.0/Sediment-0.29.0.zip" length="8007359" type="application/octet-stream" sparkle:edSignature="6/SXGyCytmn0hqTrue2+jRGbf3tUoV9HPwEYVnPp6UYZ1eIzdEV2w/9wm1QwRwS4AaiWhnxkNdtJz7H/vpGSBA=="/>
+        </item>
+        <item>
             <title>0.28.2</title>
             <pubDate>Sun, 04 Oct 2026 16:21:42 +0000</pubDate>
             <sparkle:version>68</sparkle:version>
@@ -66,33 +100,6 @@ Mail keep them.
   position.
 ]]></description>
             <enclosure url="https://github.com/unfussy-software/sediment-desktop-release/releases/download/v0.28.1/Sediment-0.28.1.zip" length="7943351" type="application/octet-stream" sparkle:edSignature="UXyDlg88oVsd5GeR59JTm94z/Wn4+1HeicUDTeRTLPAXAeX6NtRZpaEENfxld/Uz1xrjY03I/7oRsxjxTkNmBA=="/>
-        </item>
-        <item>
-            <title>0.27.0</title>
-            <pubDate>Wed, 30 Sep 2026 15:57:24 +0000</pubDate>
-            <sparkle:version>64</sparkle:version>
-            <sparkle:shortVersionString>0.27.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.5</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[Sediment has a look of its own: three themes drawn from its logo, a new set
-of type, and a choice of font for each kind of text.
-
-### What's new
-
-- Three themes in Settings ▸ Appearance: Moss, Strata and Graphite, each in
-  light and dark. A theme colours the whole window — backgrounds, text, the
-  selected row, buttons, switches, the Info popover, Go to Artifact and the
-  notices above an artifact — and never the artifact itself. Moss is the
-  default.
-- The Accent row gives way to the themes, and the System, Light and Dark
-  choice is now called Mode. Adapt artifacts to mode keeps doing what it did.
-- New type throughout: Space Grotesk for titles, names and buttons, IBM Plex
-  Sans for descriptions, dates and counts, and IBM Plex Mono for file names,
-  shortcuts and times.
-- Choose the font for Headings, Text and File names in Settings ▸
-  Appearance, from any font on your Mac, with a sample line under the rows.
-  File names offers fixed-width fonts only.
-]]></description>
-            <enclosure url="https://github.com/unfussy-software/sediment-desktop-release/releases/download/v0.27.0/Sediment-0.27.0.zip" length="7834395" type="application/octet-stream" sparkle:edSignature="KXOw8NXauX4wEzLfSRlHuf56KEG/HhPaRgQWV4fc6kwHQwfxMNkBHJ16c8HLQSGZQgkjM9TVgUPW6fO4F0WWAA=="/>
         </item>
     </channel>
 </rss>
