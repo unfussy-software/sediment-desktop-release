@@ -3,6 +3,36 @@
     <channel>
         <title>Sediment</title>
         <item>
+            <title>0.30.0</title>
+            <pubDate>Thu, 08 Oct 2026 15:15:27 +0000</pubDate>
+            <sparkle:version>72</sparkle:version>
+            <sparkle:shortVersionString>0.30.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.5</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[An artifact can go out as a PDF of its whole page, and the sidebar is
+solid in the theme's ground instead of showing the desktop through it.
+
+### What's new
+
+- Copy as PDF and Share as PDF… join the Share menu (⇧⌘C) and the File
+  menu, beside Copy File and Share…. The PDF is the author's page at the
+  width and zoom you are looking at, so a chat shows it inline where an
+  .html attachment asks the recipient to open a file. A page with
+  something the PDF cannot carry still gets its PDF, with a note naming
+  what it may leave out.
+
+### Fixed
+
+- The sidebar no longer shows the wallpaper through its panel. The top-left
+  corner of the shelf took on the desktop's colour while the rest of the
+  window was already solid.
+- Pasting text that ends with a line break into the search field or Go to…
+  keeps it on one line, so the query matches. Rename File takes the pasted
+  name correctly on ↩, though its field may still draw an empty second line
+  until you press ↩.
+]]></description>
+            <enclosure url="https://github.com/unfussy-software/sediment-desktop-release/releases/download/v0.30.0/Sediment-0.30.0.zip" length="8052764" type="application/octet-stream" sparkle:edSignature="98zs94nbbK/8no7zTTwparl4GW+iCFj8RcN7ZlgFUminvwRxxzcHmu+KncEUyTxdSZpgLBql2Mlk6ttnRFc3BA=="/>
+        </item>
+        <item>
             <title>0.29.0</title>
             <pubDate>Wed, 07 Oct 2026 08:02:46 +0000</pubDate>
             <sparkle:version>70</sparkle:version>
@@ -59,47 +89,6 @@ to the list after you edit a description.
   again with no click in between.
 ]]></description>
             <enclosure url="https://github.com/unfussy-software/sediment-desktop-release/releases/download/v0.28.2/Sediment-0.28.2.zip" length="7940262" type="application/octet-stream" sparkle:edSignature="mTEgc52OuWD8C+KqQ5l2MQS3B0fgUhIpvWdA7lo4BTAniWN4ioyBS9v/8hR/Xu09v06TyVTEYtW7WM351pUwBw=="/>
-        </item>
-        <item>
-            <title>0.28.1</title>
-            <pubDate>Sun, 04 Oct 2026 06:28:52 +0000</pubDate>
-            <sparkle:version>67</sparkle:version>
-            <sparkle:shortVersionString>0.28.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.5</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[Moving between artifacts gets easier: each one reopens where you left it,
-Back and Forward retrace your steps, and the shortcuts sit where Finder and
-Mail keep them.
-
-### What's new
-
-- Each artifact remembers where it was scrolled. Leave one and come back by
-  any route and it opens on the passage you left, and it still does after a
-  zoom change, a narrower window or a rewrite of its content. Closing the
-  window or quitting forgets every spot.
-- Back (⌘[) and Forward (⌘]) in the View menu walk the artifacts you
-  stopped on: one you stayed on for a second, or scrolled. Each lands on the
-  passage you left, and an artifact moved to Trash since is shown in the
-  Trash.
-- The Share menu reads Copy Link, Copy File, Share…. Copy File puts the
-  artifact’s file on the clipboard, to paste into Finder, Mail or a message.
-  Share… now sends the file instead of the link, so the person receiving it
-  needs no Sediment to open it.
-- The sediment command reports each artifact’s link in its answers to add,
-  update and find, so a script can open the artifact it just found.
-- Shortcuts follow Finder, Mail and Notes. In the Trash ⌘⌫ is Restore and
-  Delete Now… is ⌥⌘⌫; in the Archive ⇧⌘A is Restore, so the shortcut that
-  sent an artifact away brings it back. Rename File is ⇧⌘R, Toggle Sidebar
-  ⌃⌘S, Open in Browser ⌘O, Go to Artifact ⌘E, Activity ⌥⌘0 and Reveal Shelf
-  Folder ⌥⌘R.
-- The toolbar above an artifact ends in the ribbon from Sediment’s logo.
-
-### Fixed
-
-- With Info following the selection, the description is sized for the
-  artifact it shows, and no longer keeps the last one’s height or scroll
-  position.
-]]></description>
-            <enclosure url="https://github.com/unfussy-software/sediment-desktop-release/releases/download/v0.28.1/Sediment-0.28.1.zip" length="7943351" type="application/octet-stream" sparkle:edSignature="UXyDlg88oVsd5GeR59JTm94z/Wn4+1HeicUDTeRTLPAXAeX6NtRZpaEENfxld/Uz1xrjY03I/7oRsxjxTkNmBA=="/>
         </item>
     </channel>
 </rss>
