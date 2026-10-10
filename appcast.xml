@@ -3,6 +3,48 @@
     <channel>
         <title>Sediment</title>
         <item>
+            <title>0.31.0</title>
+            <pubDate>Sat, 10 Oct 2026 16:15:40 +0000</pubDate>
+            <sparkle:version>73</sparkle:version>
+            <sparkle:shortVersionString>0.31.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.5</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[The sidebar says where you are with a three-way place picker, a tag's
+collection spans the Shelf and the Archive, and the row marks say more at
+a glance.
+
+### What's new
+
+- A place picker sits under the search field: Shelf, Archive and Trash,
+  each with its count, the one you are in filled. It replaces the footer
+  rows, and the line under the Sediment wordmark is now a remark about the
+  place: what is unread on the Shelf, the Restore chord in the Archive and
+  the Trash, and the way out of a collection.
+- A tag's collection is a place of its own. Clicking a tag in Info or
+  choosing one in Go to… shows every artifact carrying it, from the Shelf
+  and the Archive alike, with the Trash's count beside the name. Any place
+  chord or picker segment leaves it.
+- An archived artifact's row mark is a short dash where a live one's is a
+  dot, wherever the row appears, so a collection tells the two apart. The
+  archive box glyph is gone.
+- An unread artifact's mark takes the theme's accent colour beside its bold
+  name, so the unread rows stand out down the list.
+- The sidebar panel has a hairline edge in the theme's own tone, so it
+  reads against the title strip and the window around it.
+
+### Fixed
+
+- Designating a folder under iCloud Drive, Desktop or Documents no longer
+  freezes the window while the system asks for permission. The folder
+  watcher arms off the main thread, so the list, the page and the commands
+  keep working, and the command line's find answers from the cache instead
+  of timing out.
+- Inside a collection, the count is the collection's whole size, not the
+  part of it in the place you came from, and archiving or restoring a row
+  there keeps the selection on it.
+]]></description>
+            <enclosure url="https://github.com/unfussy-software/sediment-desktop-release/releases/download/v0.31.0/Sediment-0.31.0.zip" length="8079448" type="application/octet-stream" sparkle:edSignature="RrJEOe1mgaM91v6cdIHE1JxNFdyQKqL8F30svZAzy+Np9weszKLMe0VBRdPqPh13YCPA66oJfk4mUKivCk1nAQ=="/>
+        </item>
+        <item>
             <title>0.30.0</title>
             <pubDate>Thu, 08 Oct 2026 15:15:27 +0000</pubDate>
             <sparkle:version>72</sparkle:version>
@@ -65,30 +107,6 @@ you open a tag's collection from Go to… or from Info.
   keyboard in the page instead of stranding it.
 ]]></description>
             <enclosure url="https://github.com/unfussy-software/sediment-desktop-release/releases/download/v0.29.0/Sediment-0.29.0.zip" length="8007359" type="application/octet-stream" sparkle:edSignature="6/SXGyCytmn0hqTrue2+jRGbf3tUoV9HPwEYVnPp6UYZ1eIzdEV2w/9wm1QwRwS4AaiWhnxkNdtJz7H/vpGSBA=="/>
-        </item>
-        <item>
-            <title>0.28.2</title>
-            <pubDate>Sun, 04 Oct 2026 16:21:42 +0000</pubDate>
-            <sparkle:version>68</sparkle:version>
-            <sparkle:shortVersionString>0.28.2</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.5</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[The sidebar stays responsive on a large artifact, and the keyboard returns
-to the list after you edit a description.
-
-### What's new
-
-- The sediment command’s help is layered: sediment on its own prints a short
-  overview, and each command and topic has a page of its own.
-
-### Fixed
-
-- Selecting a large artifact no longer freezes the sidebar. On a 10 MB
-  artifact the list stalled for about a second at every landing, and again
-  when the arrow keys passed over it.
-- After ↩ or ⎋ in the description field, the arrow keys move the selection
-  again with no click in between.
-]]></description>
-            <enclosure url="https://github.com/unfussy-software/sediment-desktop-release/releases/download/v0.28.2/Sediment-0.28.2.zip" length="7940262" type="application/octet-stream" sparkle:edSignature="mTEgc52OuWD8C+KqQ5l2MQS3B0fgUhIpvWdA7lo4BTAniWN4ioyBS9v/8hR/Xu09v06TyVTEYtW7WM351pUwBw=="/>
         </item>
     </channel>
 </rss>
