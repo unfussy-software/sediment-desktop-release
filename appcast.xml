@@ -3,6 +3,68 @@
     <channel>
         <title>Sediment</title>
         <item>
+            <title>0.34.0</title>
+            <pubDate>Fri, 16 Oct 2026 15:45:27 +0000</pubDate>
+            <sparkle:version>77</sparkle:version>
+            <sparkle:shortVersionString>0.34.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.5</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[The right panel is complete: History keeps every version of an artifact
+and shows what changed, Devices moves out of Settings with Forget… for a
+Mac you no longer use, and Suggestions lists the artifacts most like the one
+you're reading. A shelf on this Mac can move into iCloud Drive at any time.
+
+### What's new
+
+- The right panel gains History, on ⌥⌘3: every version of an
+  artifact's content Sediment has seen, newest first under the day it was
+  kept, with Current and Read marked. A click on a version shows what
+  changed since the one before it, paragraph by paragraph, in place of the
+  page. Return from the list opens the newest version's changes, J and K
+  walk to older and newer versions, and Escape brings the page back.
+  Versions live in the shelf folder and are thinned as they age, so a shelf
+  shared between Macs shows the same history on each. It takes the place of
+  the Highlights placeholder.
+- The right panel gains Devices, on ⌥⌘1: every device that
+  opens your shelf, grouped as Not caught up, Up to date and Retired, each
+  saying when it last opened the shelf and how many deletions wait on it.
+  Retire and Restore sit beside each device, as they did in Settings, and
+  a device with nothing waiting can be retired too. It takes the place of
+  the Comments placeholder, and Settings no longer has a Macs section.
+- Activity's line about a device that hasn't opened the shelf in a while
+  now says to retire it under Devices (⌥⌘1).
+- A retired device can be forgotten 30 days after it last opened the
+  shelf: Forget… asks first, then takes it off the list on every Mac. If
+  it opens the shelf again, it rejoins as a new device.
+- The right panel gains Suggestions, on ⌥⌘4: up to eight artifacts whose
+  names and tags most resemble the selected one, best first, each with the
+  date it last changed and the tags it shares. A click opens that artifact,
+  and Back (⌘[) returns. Archived artifacts are included and the Trash is
+  not. It takes the place of the Links placeholder, and the panel's tabs
+  now read Devices, Tags, History, Suggestions, on ⌥⌘1 to ⌥⌘4 in that
+  order, so Tags moves to ⌥⌘2.
+- Return from the list walks the suggestions: it opens the first, J and K
+  step through the list as it stood when you pressed Return, and Escape
+  goes back to the artifact you started from.
+- Settings ▸ Shelf folder shows where your shelf lives — iCloud Drive, the
+  built-in folder or a folder you choose — with a way to each. Keep in
+  iCloud Drive…, also in the File menu, copies your shelf into the
+  Sediment folder in iCloud Drive and leaves the folder it was in
+  unchanged. If that folder already holds a shelf, Sediment shows that
+  one instead and adds nothing to it.
+
+### Fixed
+
+- A copy iCloud Drive makes of a file whose contents match the artifact
+  already on the shelf is set aside instead of appearing as a second
+  artifact.
+- A notice about many files names three of them and counts the rest,
+  instead of listing every one.
+- The launch banner's line about files still arriving goes away once a
+  pass finds nothing left to wait for.
+]]></description>
+            <enclosure url="https://github.com/unfussy-software/sediment-desktop-release/releases/download/v0.34.0/Sediment-0.34.0.zip" length="8842953" type="application/octet-stream" sparkle:edSignature="f2kMPC5e/tH0MJsf9vxYC6cMsgX5YuL5sDBFqyJpoWMqGIAaiCKZkzgxmBI0dk6Liqr7CJwuACU/Xd2w1AixAw=="/>
+        </item>
+        <item>
             <title>0.33.0</title>
             <pubDate>Wed, 14 Oct 2026 17:09:12 +0000</pubDate>
             <sparkle:version>76</sparkle:version>
@@ -84,48 +146,6 @@ corner shows what you can press, and a first install comes as a disk image.
   one line.
 ]]></description>
             <enclosure url="https://github.com/unfussy-software/sediment-desktop-release/releases/download/v0.32.0/Sediment-0.32.0.zip" length="8226374" type="application/octet-stream" sparkle:edSignature="fcDrsB9OS5jSy8C8XF4MoyAs2ehEM1GxnJtJ36lGJlE3asvxZ3XGIG6CpAvg7r/6D31WflsC8FHnd+aHTTjtDQ=="/>
-        </item>
-        <item>
-            <title>0.31.0</title>
-            <pubDate>Sat, 10 Oct 2026 16:15:40 +0000</pubDate>
-            <sparkle:version>73</sparkle:version>
-            <sparkle:shortVersionString>0.31.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.5</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[The sidebar says where you are with a three-way place picker, a tag's
-collection spans the Shelf and the Archive, and the row marks say more at
-a glance.
-
-### What's new
-
-- A place picker sits under the search field: Shelf, Archive and Trash,
-  each with its count, the one you are in filled. It replaces the footer
-  rows, and the line under the Sediment wordmark is now a remark about the
-  place: what is unread on the Shelf, the Restore chord in the Archive and
-  the Trash, and the way out of a collection.
-- A tag's collection is a place of its own. Clicking a tag in Info or
-  choosing one in Go to… shows every artifact carrying it, from the Shelf
-  and the Archive alike, with the Trash's count beside the name. Any place
-  chord or picker segment leaves it.
-- An archived artifact's row mark is a short dash where a live one's is a
-  dot, wherever the row appears, so a collection tells the two apart. The
-  archive box glyph is gone.
-- An unread artifact's mark takes the theme's accent colour beside its bold
-  name, so the unread rows stand out down the list.
-- The sidebar panel has a hairline edge in the theme's own tone, so it
-  reads against the title strip and the window around it.
-
-### Fixed
-
-- Designating a folder under iCloud Drive, Desktop or Documents no longer
-  freezes the window while the system asks for permission. The folder
-  watcher arms off the main thread, so the list, the page and the commands
-  keep working, and the command line's find answers from the cache instead
-  of timing out.
-- Inside a collection, the count is the collection's whole size, not the
-  part of it in the place you came from, and archiving or restoring a row
-  there keeps the selection on it.
-]]></description>
-            <enclosure url="https://github.com/unfussy-software/sediment-desktop-release/releases/download/v0.31.0/Sediment-0.31.0.zip" length="8079448" type="application/octet-stream" sparkle:edSignature="RrJEOe1mgaM91v6cdIHE1JxNFdyQKqL8F30svZAzy+Np9weszKLMe0VBRdPqPh13YCPA66oJfk4mUKivCk1nAQ=="/>
         </item>
     </channel>
 </rss>
