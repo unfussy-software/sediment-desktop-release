@@ -3,6 +3,50 @@
     <channel>
         <title>Sediment</title>
         <item>
+            <title>0.35.0</title>
+            <pubDate>Sat, 17 Oct 2026 16:45:25 +0000</pubDate>
+            <sparkle:version>78</sparkle:version>
+            <sparkle:shortVersionString>0.35.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.5</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[Settings splits into three tabs, General, Appearance and Shelf folder, each
+shown whole without scrolling, in place of one long scrolling page, and
+Sediment has six themes, each shown as a small picture of the shelf window
+in its colours.
+
+### What's new
+
+- Settings opens on General every time, with Open at login, the artifact
+  settings and the command line tool. Appearance holds the mode, the theme,
+  the menu bar icon and the type faces; Shelf folder holds where your shelf
+  lives (SED-98).
+- Adapt artifacts to mode moves to General, beside Default zoom, because it
+  changes how artifacts look rather than Sediment's own windows.
+- The type faces sit under a live example: a title, a description and a
+  line of small print, each redrawn the moment you pick a face.
+- The menu bar icon offers pages, a tray and a folder, drawn larger in
+  Settings. A choice you already made carries over.
+- Settings ▸ Appearance ▸ Theme offers six themes: Strata, Lichen,
+  Verdigris, Shale, Graphite and Flint, warm to cool, then black and white
+  with no colour at all. Each is drawn as a miniature shelf window — the
+  sidebar, toolbar and ribbon in its colours, the artifact white as it
+  always is — in light or dark, whichever Mode is showing. A click applies
+  it to every window at once; Tab reaches the row, and the Left and Right
+  arrows move through it.
+
+### Changed
+
+- Strata is the theme for anyone who hasn't chosen one.
+- Moss is retired; if you were using it, Sediment now shows Strata.
+
+### Fixed
+
+- A Suggestions walk keeps the keyboard on the page, as History's diff does:
+  ↩ in, J and K through the suggestions, and the arrows scroll the page you
+  landed on instead of moving the sidebar and ending the walk.
+]]></description>
+            <enclosure url="https://github.com/unfussy-software/sediment-desktop-release/releases/download/v0.35.0/Sediment-0.35.0.zip" length="8892301" type="application/octet-stream" sparkle:edSignature="oYNvQ+TM42uc8gY4kwMbkaS0YpU2QWVGM3iAY+LfpkHXwH7sKHmbEVsK1hDZfCDtQ0kFwU5PNuMN1cwGnwnfCw=="/>
+        </item>
+        <item>
             <title>0.34.0</title>
             <pubDate>Fri, 16 Oct 2026 15:45:27 +0000</pubDate>
             <sparkle:version>77</sparkle:version>
@@ -113,39 +157,6 @@ Activity, Dismiss Notices and Share move to the function row.
   deciding for you.
 ]]></description>
             <enclosure url="https://github.com/unfussy-software/sediment-desktop-release/releases/download/v0.33.0/Sediment-0.33.0.zip" length="8404524" type="application/octet-stream" sparkle:edSignature="v+JyjUHguG9FFYvU27/mDqaBpINLcl+7FI3v6AaGlnulJqKSSfLOVW1j1DyVIKwFEAaoyloFldlI8GTfkLeaAg=="/>
-        </item>
-        <item>
-            <title>0.32.0</title>
-            <pubDate>Mon, 12 Oct 2026 06:04:37 +0000</pubDate>
-            <sparkle:version>74</sparkle:version>
-            <sparkle:shortVersionString>0.32.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.5</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[A tag's collection can be saved to the sidebar's footer and opened with a
-chord, the line under the wordmark states facts while a key legend in the
-corner shows what you can press, and a first install comes as a disk image.
-
-### What's new
-
-- Save Collection (⌘D) keeps the collection you are in as a row in the
-  sidebar's footer. The first six take ⌘4 to ⌘9 by position, each chord
-  drawn beside its tag. Move Collection Up and Down (⌃⌘↑ and ⌃⌘↓) or a drag
-  reorder them, and ⌘D inside a saved collection removes it. The saved list
-  travels with the shelf to your other Macs.
-- The line under the Sediment wordmark states facts only: what is unread on
-  the Shelf, and the Trash's size.
-- A key legend in the bottom-right corner shows the chords that work right
-  now: Restore in the Archive and the Trash, Delete Now in the Trash, and
-  Save or Remove Collection and Show Shelf in a collection. The Shelf stays
-  quiet, and notifications sit higher to clear the legend.
-- A first install comes as a disk image beside the zip, and the app dragged
-  out of it updates itself from then on.
-
-### Fixed
-
-- A name pasted into the rename field with a line break in it is drawn on
-  one line.
-]]></description>
-            <enclosure url="https://github.com/unfussy-software/sediment-desktop-release/releases/download/v0.32.0/Sediment-0.32.0.zip" length="8226374" type="application/octet-stream" sparkle:edSignature="fcDrsB9OS5jSy8C8XF4MoyAs2ehEM1GxnJtJ36lGJlE3asvxZ3XGIG6CpAvg7r/6D31WflsC8FHnd+aHTTjtDQ=="/>
         </item>
     </channel>
 </rss>
