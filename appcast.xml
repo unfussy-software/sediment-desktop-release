@@ -3,6 +3,59 @@
     <channel>
         <title>Sediment</title>
         <item>
+            <title>0.37.0</title>
+            <pubDate>Tue, 20 Oct 2026 15:57:27 +0000</pubDate>
+            <sparkle:version>80</sparkle:version>
+            <sparkle:shortVersionString>0.37.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.5</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[A Support tab writes your feedback as an email in your own mail app,
+Suggestions walk a dated series one issue at a time, and the themes gain
+Nocturne while Verdigris takes a coral accent.
+
+### What's new
+
+- Settings ▸ Support writes an email to the developer: choose what it's
+  about, write your message, and choose whether to attach a diagnostic
+  report. The report carries no personal information. Write Email… opens the
+  draft in your own mail app, so you see everything before you send it;
+  Sediment itself sends nothing. Help ▸ Send Feedback… opens the tab
+  (SED-112).
+
+### Changed
+
+- Suggestions walk a series one issue at a time: the eight listed are the
+  ones nearest this artifact by creation date, its own series first, newest
+  at the top, and each row shows when its artifact was created and last
+  modified (SED-110).
+- A click on a suggestion is now a step of the walk, as J and K are: the
+  row stays marked, the list holds still, and ⎋ returns to the origin. A
+  click on the origin's row steps back to it and the walk goes on. ↩ starts
+  the walk on the origin's row when it is shown, so nothing changes until
+  the first J (SED-110).
+- The artifact Suggestions is about is called the origin everywhere: its
+  row reads *Origin*, the setting is *Show the origin at the top of
+  Suggestions*, and ⎋'s hint is *Back to origin* (SED-110).
+- Tab and section headers read in Title Case: Settings' Shelf Folder tab,
+  This Shelf, Command Line Tool and Menu Bar, and the Devices tab's Not
+  Caught Up and Up to Date groups. The command line's relink hint names
+  Settings ▸ Command Line Tool to match (SED-111).
+- Settings ▸ Appearance ▸ Theme reads Strata, Verdigris, Nocturne, Shale,
+  Graphite and Flint. Verdigris keeps its cream and deep teal under a coral
+  accent, and Nocturne is new: Dracula's night, with a cyan button. Lichen
+  is retired; if you were using it, Sediment now shows Strata (SED-113).
+
+### Fixed
+
+- Clicking a control in Settings, such as a theme under Appearance, no
+  longer leaves a focus ring around it. The ring shows only when you move
+  there with ⇥ or the arrow keys (SED-112).
+- The diagnostic report no longer carries the names your sync provider
+  gives its conflict copies of Sediment's own files, which can include a
+  person's or a Mac's name (SED-112).
+]]></description>
+            <enclosure url="https://github.com/unfussy-software/sediment-desktop-release/releases/download/v0.37.0/Sediment-0.37.0.zip" length="9357456" type="application/octet-stream" sparkle:edSignature="zNZifk6hs4deRzPYqpOF0GlEw6JRox60OL0iwofyxwzZpUltYlQuvRxIDL9ObwH00qVHoO+IaFXUatimB27aAg=="/>
+        </item>
+        <item>
             <title>0.36.0</title>
             <pubDate>Mon, 19 Oct 2026 16:47:02 +0000</pubDate>
             <sparkle:version>79</sparkle:version>
@@ -102,68 +155,6 @@ in its colours.
   landed on instead of moving the sidebar and ending the walk.
 ]]></description>
             <enclosure url="https://github.com/unfussy-software/sediment-desktop-release/releases/download/v0.35.0/Sediment-0.35.0.zip" length="8892301" type="application/octet-stream" sparkle:edSignature="oYNvQ+TM42uc8gY4kwMbkaS0YpU2QWVGM3iAY+LfpkHXwH7sKHmbEVsK1hDZfCDtQ0kFwU5PNuMN1cwGnwnfCw=="/>
-        </item>
-        <item>
-            <title>0.34.0</title>
-            <pubDate>Fri, 16 Oct 2026 15:45:27 +0000</pubDate>
-            <sparkle:version>77</sparkle:version>
-            <sparkle:shortVersionString>0.34.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.5</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[The right panel is complete: History keeps every version of an artifact
-and shows what changed, Devices moves out of Settings with Forget… for a
-Mac you no longer use, and Suggestions lists the artifacts most like the one
-you're reading. A shelf on this Mac can move into iCloud Drive at any time.
-
-### What's new
-
-- The right panel gains History, on ⌥⌘3: every version of an
-  artifact's content Sediment has seen, newest first under the day it was
-  kept, with Current and Read marked. A click on a version shows what
-  changed since the one before it, paragraph by paragraph, in place of the
-  page. Return from the list opens the newest version's changes, J and K
-  walk to older and newer versions, and Escape brings the page back.
-  Versions live in the shelf folder and are thinned as they age, so a shelf
-  shared between Macs shows the same history on each. It takes the place of
-  the Highlights placeholder.
-- The right panel gains Devices, on ⌥⌘1: every device that
-  opens your shelf, grouped as Not caught up, Up to date and Retired, each
-  saying when it last opened the shelf and how many deletions wait on it.
-  Retire and Restore sit beside each device, as they did in Settings, and
-  a device with nothing waiting can be retired too. It takes the place of
-  the Comments placeholder, and Settings no longer has a Macs section.
-- Activity's line about a device that hasn't opened the shelf in a while
-  now says to retire it under Devices (⌥⌘1).
-- A retired device can be forgotten 30 days after it last opened the
-  shelf: Forget… asks first, then takes it off the list on every Mac. If
-  it opens the shelf again, it rejoins as a new device.
-- The right panel gains Suggestions, on ⌥⌘4: up to eight artifacts whose
-  names and tags most resemble the selected one, best first, each with the
-  date it last changed and the tags it shares. A click opens that artifact,
-  and Back (⌘[) returns. Archived artifacts are included and the Trash is
-  not. It takes the place of the Links placeholder, and the panel's tabs
-  now read Devices, Tags, History, Suggestions, on ⌥⌘1 to ⌥⌘4 in that
-  order, so Tags moves to ⌥⌘2.
-- Return from the list walks the suggestions: it opens the first, J and K
-  step through the list as it stood when you pressed Return, and Escape
-  goes back to the artifact you started from.
-- Settings ▸ Shelf folder shows where your shelf lives — iCloud Drive, the
-  built-in folder or a folder you choose — with a way to each. Keep in
-  iCloud Drive…, also in the File menu, copies your shelf into the
-  Sediment folder in iCloud Drive and leaves the folder it was in
-  unchanged. If that folder already holds a shelf, Sediment shows that
-  one instead and adds nothing to it.
-
-### Fixed
-
-- A copy iCloud Drive makes of a file whose contents match the artifact
-  already on the shelf is set aside instead of appearing as a second
-  artifact.
-- A notice about many files names three of them and counts the rest,
-  instead of listing every one.
-- The launch banner's line about files still arriving goes away once a
-  pass finds nothing left to wait for.
-]]></description>
-            <enclosure url="https://github.com/unfussy-software/sediment-desktop-release/releases/download/v0.34.0/Sediment-0.34.0.zip" length="8842953" type="application/octet-stream" sparkle:edSignature="f2kMPC5e/tH0MJsf9vxYC6cMsgX5YuL5sDBFqyJpoWMqGIAaiCKZkzgxmBI0dk6Liqr7CJwuACU/Xd2w1AixAw=="/>
         </item>
     </channel>
 </rss>
