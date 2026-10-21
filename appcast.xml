@@ -3,6 +3,52 @@
     <channel>
         <title>Sediment</title>
         <item>
+            <title>0.38.0</title>
+            <pubDate>Wed, 21 Oct 2026 16:42:54 +0000</pubDate>
+            <sparkle:version>81</sparkle:version>
+            <sparkle:shortVersionString>0.38.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.5</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[The Tags panel gains editing and sorting, the command line prints your own
+playbook under each help page, and Settings remembers the folders this Mac
+has used as its shelf.
+
+### What's new
+
+- Right-click a tag in the Tags panel and choose Edit Tag… to give it a
+  meaning, rename, merge or remove it, without leaving where you are
+  (SED-114).
+- Sort the Tags panel by Name or by Count with the two buttons at its top,
+  to see which tags carry the shelf; the window keeps the choice until you
+  close it (SED-115).
+- Bind a playbook folder in Settings ▸ Command Line Tool, and the command
+  line prints your own markdown under each help page: ADD.md under sediment
+  help add, TAGS.md under sediment help tags. sediment help playbook
+  explains it (SED-117).
+- Settings ▸ Shelf Folder lists the last 3 folders this Mac used as its
+  shelf under Recent Shelf Folders: Use Folder… switches back to one after
+  asking in the shelf window, and Forget takes one off the list. A folder
+  that is no longer on this Mac says so (SED-119).
+
+### Changed
+
+- The Tags panel's second line reads the right way round: a tag's meaning
+  is the stronger grey, *No meaning yet* the lighter one, and a tag only
+  one artifact carries is no longer marked in amber (SED-114).
+- sediment help tags no longer carries one operator's tag conventions; they
+  are the example on sediment help playbook (SED-117).
+- Sediment can now write one folder outside its container,
+  ~/Library/Application Support/Sediment/, to record the playbook binding
+  for the command line (SED-117).
+
+### Fixed
+
+- Settings ▸ Support’s message box is set at the same size as the rows
+  around it, where before its text and placeholder read a point larger
+  (SED-116).
+]]></description>
+            <enclosure url="https://github.com/unfussy-software/sediment-desktop-release/releases/download/v0.38.0/Sediment-0.38.0.zip" length="9494281" type="application/octet-stream" sparkle:edSignature="ovYsZcopqnjfk+7E5gEU993D/axbPCAoHTSUL5BnJvLIghfgP9sRg5sNs9rmy875/+zLSQNi+vbNk+yd3yk2AA=="/>
+        </item>
+        <item>
             <title>0.37.0</title>
             <pubDate>Tue, 20 Oct 2026 15:57:27 +0000</pubDate>
             <sparkle:version>80</sparkle:version>
@@ -111,50 +157,6 @@ command line adds.
   Flint whichever theme was chosen.
 ]]></description>
             <enclosure url="https://github.com/unfussy-software/sediment-desktop-release/releases/download/v0.36.0/Sediment-0.36.0.zip" length="9234612" type="application/octet-stream" sparkle:edSignature="g/vP72rhJW7jlkxRxTIlV9sz40S35JaIeoHImNW+cUD1pq/avvCbcy9sECk03SzCsiUh9L6TPzYIzuyAuJLADw=="/>
-        </item>
-        <item>
-            <title>0.35.0</title>
-            <pubDate>Sat, 17 Oct 2026 16:45:25 +0000</pubDate>
-            <sparkle:version>78</sparkle:version>
-            <sparkle:shortVersionString>0.35.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.5</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[Settings splits into three tabs, General, Appearance and Shelf folder, each
-shown whole without scrolling, in place of one long scrolling page, and
-Sediment has six themes, each shown as a small picture of the shelf window
-in its colours.
-
-### What's new
-
-- Settings opens on General every time, with Open at login, the artifact
-  settings and the command line tool. Appearance holds the mode, the theme,
-  the menu bar icon and the type faces; Shelf folder holds where your shelf
-  lives (SED-98).
-- Adapt artifacts to mode moves to General, beside Default zoom, because it
-  changes how artifacts look rather than Sediment's own windows.
-- The type faces sit under a live example: a title, a description and a
-  line of small print, each redrawn the moment you pick a face.
-- The menu bar icon offers pages, a tray and a folder, drawn larger in
-  Settings. A choice you already made carries over.
-- Settings ▸ Appearance ▸ Theme offers six themes: Strata, Lichen,
-  Verdigris, Shale, Graphite and Flint, warm to cool, then black and white
-  with no colour at all. Each is drawn as a miniature shelf window — the
-  sidebar, toolbar and ribbon in its colours, the artifact white as it
-  always is — in light or dark, whichever Mode is showing. A click applies
-  it to every window at once; Tab reaches the row, and the Left and Right
-  arrows move through it.
-
-### Changed
-
-- Strata is the theme for anyone who hasn't chosen one.
-- Moss is retired; if you were using it, Sediment now shows Strata.
-
-### Fixed
-
-- A Suggestions walk keeps the keyboard on the page, as History's diff does:
-  ↩ in, J and K through the suggestions, and the arrows scroll the page you
-  landed on instead of moving the sidebar and ending the walk.
-]]></description>
-            <enclosure url="https://github.com/unfussy-software/sediment-desktop-release/releases/download/v0.35.0/Sediment-0.35.0.zip" length="8892301" type="application/octet-stream" sparkle:edSignature="oYNvQ+TM42uc8gY4kwMbkaS0YpU2QWVGM3iAY+LfpkHXwH7sKHmbEVsK1hDZfCDtQ0kFwU5PNuMN1cwGnwnfCw=="/>
         </item>
     </channel>
 </rss>
