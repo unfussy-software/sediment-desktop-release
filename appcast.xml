@@ -3,6 +3,28 @@
     <channel>
         <title>Sediment</title>
         <item>
+            <title>0.39.0</title>
+            <pubDate>Fri, 23 Oct 2026 06:58:58 +0000</pubDate>
+            <sparkle:version>82</sparkle:version>
+            <sparkle:shortVersionString>0.39.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.5</sparkle:minimumSystemVersion>
+            <description><![CDATA[<style>
+:root{color-scheme:light dark;--i1:rgba(0,0,0,.85);--i2:rgba(0,0,0,.6);--hl:rgba(0,0,0,.09)}
+@media (prefers-color-scheme: dark){:root{--i1:rgba(255,255,255,.9);--i2:rgba(255,255,255,.6);--hl:rgba(255,255,255,.12)}}
+body{margin:0;padding:16px 20px 18px;color:var(--i1);font:400 14px/1.45 -apple-system,BlinkMacSystemFont,sans-serif;-webkit-font-smoothing:antialiased}
+header{display:flex;align-items:baseline;justify-content:space-between;gap:14px;padding-bottom:14px;margin-bottom:14px;border-bottom:1px solid var(--hl)}
+h2{margin:0;font:600 20px/1.2 -apple-system,BlinkMacSystemFont,sans-serif}
+time,.tally{color:var(--i2);font:400 11.5px/1.3 -apple-system,BlinkMacSystemFont,sans-serif;font-variant-numeric:tabular-nums}
+p{margin:0}
+.tally{margin-top:14px}
+</style>
+<header><h2>0.39.0</h2><time datetime="2026-10-23">23 October 2026</time></header>
+<p>The right panel's Suggestions tab becomes Related and its empty states are set in Sediment's own type, the sidebar is solid again on macOS 27, and an iCloud shelf stays writable after a restart.</p>
+<p class="tally">3 changed · 3 fixed</p>
+]]></description>
+            <enclosure url="https://github.com/unfussy-software/sediment-desktop-release/releases/download/v0.39.0/Sediment-0.39.0.zip" length="9511324" type="application/octet-stream" sparkle:edSignature="/LQobv2jMnBczVD6Pf+5mEHTxljHbCCCfG7VGD8vBlvTQ7cgp+CrI/JVynewpf3JKWTYBu7pyTmP+mpOgzJiCQ=="/>
+        </item>
+        <item>
             <title>0.38.0</title>
             <pubDate>Wed, 21 Oct 2026 16:42:54 +0000</pubDate>
             <sparkle:version>81</sparkle:version>
@@ -100,63 +122,6 @@ Nocturne while Verdigris takes a coral accent.
   person's or a Mac's name (SED-112).
 ]]></description>
             <enclosure url="https://github.com/unfussy-software/sediment-desktop-release/releases/download/v0.37.0/Sediment-0.37.0.zip" length="9357456" type="application/octet-stream" sparkle:edSignature="zNZifk6hs4deRzPYqpOF0GlEw6JRox60OL0iwofyxwzZpUltYlQuvRxIDL9ObwH00qVHoO+IaFXUatimB27aAg=="/>
-        </item>
-        <item>
-            <title>0.36.0</title>
-            <pubDate>Mon, 19 Oct 2026 16:47:02 +0000</pubDate>
-            <sparkle:version>79</sparkle:version>
-            <sparkle:shortVersionString>0.36.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.5</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[Tags grow into a vocabulary the shelf owns. An agent tags an artifact from
-the command line in one call, each tag can carry a meaning that travels with
-the shelf, a tag is edited from inside its collection, the Tags tab shows
-what is still untagged, and a shelf can require a tag of everything the
-command line adds.
-
-### What's new
-
-- From the command line, `sediment add` takes `--description` and `--tag`,
-  so an agent files a tagged artifact in one call; `sediment update --tag`
-  and `--untag` add or remove a tag without rewriting the description, and
-  the reply says which tags are new to the shelf (SED-97).
-- `sediment tags` prints every tag in use with its count, and
-  `sediment find --untagged` lists the artifacts carrying none (SED-97).
-- Each tag can carry a one-line meaning, kept in the shelf folder and shared
-  with every Mac. `sediment tags describe` writes one and `sediment tags`
-  shows them; the Tags tab shows each meaning under its tag, says *No meaning
-  yet* where there is none, and tints a tag only one artifact carries; Go
-  to…'s `#` reaches a described tag even when nothing carries it (SED-97).
-- Inside a tag's collection, Edit Tag… (⌥⌘T) gives the tag a meaning, renames
-  it on every artifact, merges it into another tag, or removes it from all of
-  them, each in one step with one ⌘Z, which the toast names; a merge and a
-  removal ask first, and a rename to a name already in use points you at
-  Merge into…. A collection nothing carries says how to leave it or edit
-  its tag (SED-97).
-- The Suggestions tab lists the artifact you’re reading above the ones like
-  it, marked when a walk brings you back to it with K; you can turn this off
-  in Settings ▸ General ▸ Artifacts.
-- The Tags tab's first row, Untagged, opens the artifacts carrying no tag, so
-  the ones `sediment find --untagged` lists are one click away (SED-108).
-- Settings ▸ General ▸ This shelf can require a tag from the command line:
-  with it on, an agent’s `sediment add` or `update` that would leave an
-  artifact untagged is refused and told to pass `--tag`. The setting travels
-  with the shelf, and `sediment shelf` reports it (SED-109).
-
-### Changed
-
-- A tag an agent introduces from the command line is a line in Activity.
-- Show and hide the sidebar with ⌘B. ⌃⌘S no longer does anything.
-
-### Fixed
-
-- Closing Info during a Suggestions walk leaves the keyboard on the page, so
-  the arrows keep scrolling it instead of moving the sidebar and ending the
-  walk.
-- In Settings ▸ Appearance, VoiceOver now names the theme you are on as you
-  move through the thumbnails with ⇥ or the arrow keys, where before it named
-  Flint whichever theme was chosen.
-]]></description>
-            <enclosure url="https://github.com/unfussy-software/sediment-desktop-release/releases/download/v0.36.0/Sediment-0.36.0.zip" length="9234612" type="application/octet-stream" sparkle:edSignature="g/vP72rhJW7jlkxRxTIlV9sz40S35JaIeoHImNW+cUD1pq/avvCbcy9sECk03SzCsiUh9L6TPzYIzuyAuJLADw=="/>
         </item>
     </channel>
 </rss>
