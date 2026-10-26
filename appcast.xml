@@ -3,6 +3,28 @@
     <channel>
         <title>Sediment</title>
         <item>
+            <title>0.40.0</title>
+            <pubDate>Mon, 26 Oct 2026 10:08:55 +0000</pubDate>
+            <sparkle:version>83</sparkle:version>
+            <sparkle:shortVersionString>0.40.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.5</sparkle:minimumSystemVersion>
+            <description><![CDATA[<style>
+:root{color-scheme:light dark;--i1:rgba(0,0,0,.85);--i2:rgba(0,0,0,.6);--hl:rgba(0,0,0,.09)}
+@media (prefers-color-scheme: dark){:root{--i1:rgba(255,255,255,.9);--i2:rgba(255,255,255,.6);--hl:rgba(255,255,255,.12)}}
+body{margin:0;padding:16px 20px 18px;color:var(--i1);font:400 14px/1.45 -apple-system,BlinkMacSystemFont,sans-serif;-webkit-font-smoothing:antialiased}
+header{display:flex;align-items:baseline;justify-content:space-between;gap:14px;padding-bottom:14px;margin-bottom:14px;border-bottom:1px solid var(--hl)}
+h2{margin:0;font:600 20px/1.2 -apple-system,BlinkMacSystemFont,sans-serif}
+time,.tally{color:var(--i2);font:400 11.5px/1.3 -apple-system,BlinkMacSystemFont,sans-serif;font-variant-numeric:tabular-nums}
+p{margin:0}
+.tally{margin-top:14px}
+</style>
+<header><h2>0.40.0</h2><time datetime="2026-10-26">26 October 2026</time></header>
+<p>Your pins carry Finder’s red tag, `sediment find` searches an artifact’s text and lists a tag exactly, and an iCloud shelf opens with the keyboard on the list.</p>
+<p class="tally">2 new · 2 fixed</p>
+]]></description>
+            <enclosure url="https://github.com/unfussy-software/sediment-desktop-release/releases/download/v0.40.0/Sediment-0.40.0.zip" length="9555813" type="application/octet-stream" sparkle:edSignature="k267gHlUyeWQt1aJqv2HjfQXLTrF7VZW94+X51chZhAQDLhtyGzPKY0ZgKsBxMGLLp+j37DIhtZt/ktxMWxvAA=="/>
+        </item>
+        <item>
             <title>0.39.0</title>
             <pubDate>Fri, 23 Oct 2026 06:58:58 +0000</pubDate>
             <sparkle:version>82</sparkle:version>
@@ -69,59 +91,6 @@ has used as its shelf.
   (SED-116).
 ]]></description>
             <enclosure url="https://github.com/unfussy-software/sediment-desktop-release/releases/download/v0.38.0/Sediment-0.38.0.zip" length="9494281" type="application/octet-stream" sparkle:edSignature="ovYsZcopqnjfk+7E5gEU993D/axbPCAoHTSUL5BnJvLIghfgP9sRg5sNs9rmy875/+zLSQNi+vbNk+yd3yk2AA=="/>
-        </item>
-        <item>
-            <title>0.37.0</title>
-            <pubDate>Tue, 20 Oct 2026 15:57:27 +0000</pubDate>
-            <sparkle:version>80</sparkle:version>
-            <sparkle:shortVersionString>0.37.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.5</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[A Support tab writes your feedback as an email in your own mail app,
-Suggestions walk a dated series one issue at a time, and the themes gain
-Nocturne while Verdigris takes a coral accent.
-
-### What's new
-
-- Settings ▸ Support writes an email to the developer: choose what it's
-  about, write your message, and choose whether to attach a diagnostic
-  report. The report carries no personal information. Write Email… opens the
-  draft in your own mail app, so you see everything before you send it;
-  Sediment itself sends nothing. Help ▸ Send Feedback… opens the tab
-  (SED-112).
-
-### Changed
-
-- Suggestions walk a series one issue at a time: the eight listed are the
-  ones nearest this artifact by creation date, its own series first, newest
-  at the top, and each row shows when its artifact was created and last
-  modified (SED-110).
-- A click on a suggestion is now a step of the walk, as J and K are: the
-  row stays marked, the list holds still, and ⎋ returns to the origin. A
-  click on the origin's row steps back to it and the walk goes on. ↩ starts
-  the walk on the origin's row when it is shown, so nothing changes until
-  the first J (SED-110).
-- The artifact Suggestions is about is called the origin everywhere: its
-  row reads *Origin*, the setting is *Show the origin at the top of
-  Suggestions*, and ⎋'s hint is *Back to origin* (SED-110).
-- Tab and section headers read in Title Case: Settings' Shelf Folder tab,
-  This Shelf, Command Line Tool and Menu Bar, and the Devices tab's Not
-  Caught Up and Up to Date groups. The command line's relink hint names
-  Settings ▸ Command Line Tool to match (SED-111).
-- Settings ▸ Appearance ▸ Theme reads Strata, Verdigris, Nocturne, Shale,
-  Graphite and Flint. Verdigris keeps its cream and deep teal under a coral
-  accent, and Nocturne is new: Dracula's night, with a cyan button. Lichen
-  is retired; if you were using it, Sediment now shows Strata (SED-113).
-
-### Fixed
-
-- Clicking a control in Settings, such as a theme under Appearance, no
-  longer leaves a focus ring around it. The ring shows only when you move
-  there with ⇥ or the arrow keys (SED-112).
-- The diagnostic report no longer carries the names your sync provider
-  gives its conflict copies of Sediment's own files, which can include a
-  person's or a Mac's name (SED-112).
-]]></description>
-            <enclosure url="https://github.com/unfussy-software/sediment-desktop-release/releases/download/v0.37.0/Sediment-0.37.0.zip" length="9357456" type="application/octet-stream" sparkle:edSignature="zNZifk6hs4deRzPYqpOF0GlEw6JRox60OL0iwofyxwzZpUltYlQuvRxIDL9ObwH00qVHoO+IaFXUatimB27aAg=="/>
         </item>
     </channel>
 </rss>
