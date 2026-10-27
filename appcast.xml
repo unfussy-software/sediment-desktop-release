@@ -3,6 +3,29 @@
     <channel>
         <title>Sediment</title>
         <item>
+            <title>0.41.0</title>
+            <pubDate>Tue, 27 Oct 2026 15:33:52 +0000</pubDate>
+            <sparkle:version>84</sparkle:version>
+            <sparkle:shortVersionString>0.41.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.5</sparkle:minimumSystemVersion>
+            <description><![CDATA[<style>
+:root{color-scheme:light dark;--i1:rgba(0,0,0,.85);--i2:rgba(0,0,0,.6);--hl:rgba(0,0,0,.09)}
+@media (prefers-color-scheme: dark){:root{--i1:rgba(255,255,255,.9);--i2:rgba(255,255,255,.6);--hl:rgba(255,255,255,.12)}}
+body{margin:0;padding:16px 20px 18px;color:var(--i1);font:400 14px/1.45 -apple-system,BlinkMacSystemFont,sans-serif;-webkit-font-smoothing:antialiased}
+header{display:flex;align-items:baseline;justify-content:space-between;gap:14px;padding-bottom:14px;margin-bottom:14px;border-bottom:1px solid var(--hl)}
+h2{margin:0;font:600 20px/1.2 -apple-system,BlinkMacSystemFont,sans-serif}
+time,.tally{color:var(--i2);font:400 11.5px/1.3 -apple-system,BlinkMacSystemFont,sans-serif;font-variant-numeric:tabular-nums}
+p{margin:0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:0.92em}
+.tally{margin-top:14px}
+</style>
+<header><h2>0.41.0</h2><time datetime="2026-10-27">27 October 2026</time></header>
+<p>Sediment plays a sound when an artifact arrives from an agent, another Mac or the shelf folder, the Tags tab can pin the open artifact’s tags above the shelf’s, and Settings explains each section under its title.</p>
+<p class="tally">2 new · 1 changed · 2 fixed</p>
+]]></description>
+            <enclosure url="https://github.com/unfussy-software/sediment-desktop-release/releases/download/v0.41.0/Sediment-0.41.0.zip" length="9617552" type="application/octet-stream" sparkle:edSignature="3defR7Xef1V7nuGUF4+Jh6gvqlNxdpylzMQx87W8CQuuewlxnJ96dyQyAcy67YhWhYdU9niatCxLL8k+zpVcBA=="/>
+        </item>
+        <item>
             <title>0.40.0</title>
             <pubDate>Mon, 26 Oct 2026 10:08:55 +0000</pubDate>
             <sparkle:version>83</sparkle:version>
@@ -45,52 +68,6 @@ p{margin:0}
 <p class="tally">3 changed · 3 fixed</p>
 ]]></description>
             <enclosure url="https://github.com/unfussy-software/sediment-desktop-release/releases/download/v0.39.0/Sediment-0.39.0.zip" length="9511324" type="application/octet-stream" sparkle:edSignature="/LQobv2jMnBczVD6Pf+5mEHTxljHbCCCfG7VGD8vBlvTQ7cgp+CrI/JVynewpf3JKWTYBu7pyTmP+mpOgzJiCQ=="/>
-        </item>
-        <item>
-            <title>0.38.0</title>
-            <pubDate>Wed, 21 Oct 2026 16:42:54 +0000</pubDate>
-            <sparkle:version>81</sparkle:version>
-            <sparkle:shortVersionString>0.38.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.5</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[The Tags panel gains editing and sorting, the command line prints your own
-playbook under each help page, and Settings remembers the folders this Mac
-has used as its shelf.
-
-### What's new
-
-- Right-click a tag in the Tags panel and choose Edit Tag… to give it a
-  meaning, rename, merge or remove it, without leaving where you are
-  (SED-114).
-- Sort the Tags panel by Name or by Count with the two buttons at its top,
-  to see which tags carry the shelf; the window keeps the choice until you
-  close it (SED-115).
-- Bind a playbook folder in Settings ▸ Command Line Tool, and the command
-  line prints your own markdown under each help page: ADD.md under sediment
-  help add, TAGS.md under sediment help tags. sediment help playbook
-  explains it (SED-117).
-- Settings ▸ Shelf Folder lists the last 3 folders this Mac used as its
-  shelf under Recent Shelf Folders: Use Folder… switches back to one after
-  asking in the shelf window, and Forget takes one off the list. A folder
-  that is no longer on this Mac says so (SED-119).
-
-### Changed
-
-- The Tags panel's second line reads the right way round: a tag's meaning
-  is the stronger grey, *No meaning yet* the lighter one, and a tag only
-  one artifact carries is no longer marked in amber (SED-114).
-- sediment help tags no longer carries one operator's tag conventions; they
-  are the example on sediment help playbook (SED-117).
-- Sediment can now write one folder outside its container,
-  ~/Library/Application Support/Sediment/, to record the playbook binding
-  for the command line (SED-117).
-
-### Fixed
-
-- Settings ▸ Support’s message box is set at the same size as the rows
-  around it, where before its text and placeholder read a point larger
-  (SED-116).
-]]></description>
-            <enclosure url="https://github.com/unfussy-software/sediment-desktop-release/releases/download/v0.38.0/Sediment-0.38.0.zip" length="9494281" type="application/octet-stream" sparkle:edSignature="ovYsZcopqnjfk+7E5gEU993D/axbPCAoHTSUL5BnJvLIghfgP9sRg5sNs9rmy875/+zLSQNi+vbNk+yd3yk2AA=="/>
         </item>
     </channel>
 </rss>
