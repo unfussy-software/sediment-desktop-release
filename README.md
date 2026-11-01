@@ -1,5 +1,10 @@
 # Sediment
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.png">
+  <img src="assets/hero.png" width="1120" alt="In a terminal on the left, someone asks an agent to brief a podcast episode and file it on shelf; the agent runs sediment shelf and sediment add, then confirms the page is on the shelf, tagged brief. On the right, the Sediment window shows the shelf's list with that same page selected and open for reading.">
+</picture>
+
 Sediment is a shelf for your HTML artifacts: the self-contained pages that
 AI tools and browser plugins hand you. Import them, star and search them,
 and preview them without leaving the app.
