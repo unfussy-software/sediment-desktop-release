@@ -21,7 +21,7 @@ More at [unfussy.software/sediment](https://unfussy.software/sediment).
 
 ## Install
 
-Sediment is in beta and needs macOS 26.5 or later.
+Sediment is in beta and needs macOS 26.0 or later.
 
 1. Download `Sediment-<version>.dmg` from the
    [latest release](https://github.com/unfussy-software/sediment-desktop-release/releases/latest).
