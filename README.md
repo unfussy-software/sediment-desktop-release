@@ -31,3 +31,53 @@ Sediment is in beta and needs macOS 26.0 or later.
 
 Signed and notarized. Sediment updates itself; see what changed in the
 [changelog](https://unfussy.software/sediment/changelog).
+
+## Connect an Agent
+
+Agents file to Sediment from wherever they run; where one runs decides how
+it connects.
+
+### In a Terminal
+
+Claude Code, Codex CLI and other terminal agents use the `sediment`
+command. Link it once from Sediment’s Settings ▸ Terminal, then install the
+skill, so the agent knows how to file, find and edit there:
+
+```
+npx skills add unfussy-software/sediment-skills -g
+```
+
+### In a Desktop App
+
+ChatGPT, Claude Desktop and other desktop apps reach Sediment through its
+MCP server. Paste this into a new conversation; the agent sets the server
+up the way its own app does, asks you for anything only you can do, and
+confirms when it works:
+
+```
+Connect this app to Sediment, the app on my Mac that keeps my HTML pages
+on a shelf. It offers an MCP server over stdio:
+
+  command:    /Applications/Sediment.app/Contents/Helpers/sediment
+  arguments:  mcp
+
+If it isn’t at that path, find the app by its bundle id,
+com.unfussysoftware.Sediment. If it isn’t installed, tell me and stop.
+
+Set the server up the way this app sets up a local MCP server; if a step
+is mine to take, tell me and wait. It starts Sediment itself when needed.
+
+You’ll see its tools in a new conversation. Then call tags: a reply means
+the connection works. Tell me in one sentence that Sediment is connected
+and how many tags my shelf has; if tags fails, tell me what it said.
+
+The server’s own instructions say how to file a page.
+```
+
+### In Claude Cowork
+
+A Claude Cowork agent runs in the cloud, not on your Mac, so it can’t set
+the server up itself. Install the
+[Sediment plugin](https://github.com/unfussy-software/sediment-plugin)
+instead: download `sediment.plugin` from its latest release and upload it
+under Customize ▸ Plugins.
