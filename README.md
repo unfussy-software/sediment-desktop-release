@@ -81,3 +81,10 @@ the server up itself. Install the
 [Sediment plugin](https://github.com/unfussy-software/sediment-plugin)
 instead: download `sediment.plugin` from its latest release and upload it
 under Customize ▸ Plugins.
+
+Then connect a folder to the conversation for the agent’s pages: any
+folder except your shelf’s, since a page saved there is already on the
+shelf. The agent saves each page there and Sediment files it from that
+folder. Without a folder, the agent can send a page of up to 32 KB
+straight to Sediment; for a larger page it sends nothing and asks you to
+connect one.
