@@ -1,90 +1,102 @@
+<div align="center">
+
 # Sediment
+
+**Agents write. You read. Sediment is the shelf between.**
+
+Your agent files each page with one command: a brief, a research report,
+a dashboard, a plan.<br>You read and organize them all in one place, on your Mac.
+
+[![Latest release](https://img.shields.io/github/v/release/unfussy-software/sediment-desktop-release?label=release&color=3b6ea8)](https://github.com/unfussy-software/sediment-desktop-release/releases/latest)
+![macOS 26.0 or later](https://img.shields.io/badge/macOS-26.0%2B-555555?logo=apple&logoColor=white)
+![Beta](https://img.shields.io/badge/status-beta-c27c0e)
+
+[**Download for macOS**](https://github.com/unfussy-software/sediment-desktop-release/releases/latest)
+&nbsp;·&nbsp; [Website](https://unfussy.software/sediment)
+&nbsp;·&nbsp; [Changelog](https://unfussy.software/sediment/changelog)
+
+<br>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.png">
   <img src="assets/hero.png" width="1120" alt="In a terminal on the left, someone asks an agent to brief a podcast episode and file it on shelf; the agent runs sediment shelf and sediment add, then confirms the page is on the shelf, tagged brief. On the right, the Sediment window shows the shelf's list with that same page selected and open for reading.">
 </picture>
 
-**Agents write. You read. Sediment is the shelf between.**
+</div>
 
-Your agent files each page with one command: a brief, a research report,
-a dashboard, a plan. You read them all in one place, on your Mac.
+## Pillars
 
-- **Local-first.** The shelf is a folder on your disk, and the app is a view
-  over it. No account, nothing tracked, and any folder sync works with it.
-- **Keyboard-driven.** Every common action is a chord away, and the chords
-  match the Mac you already know.
-- **Agent-native.** Say "file it on shelf" in your own words. Your agent
-  files, tags and revises pages for you.
+Safe to keep. Fast to read. Easy to file.
 
-More at [unfussy.software/sediment](https://unfussy.software/sediment).
+### 01 · Local-First
+
+Instant and offline by default. The shelf is a folder on your disk; the app
+is a view over it, not a database you can lose.
+
+- Bring your own sync: iCloud Drive, Dropbox, OneDrive, or anything that
+  syncs a folder.
+- No account to make, nothing tracked.
+- Delete the app, and the shelf is still there.
+
+### 02 · Keyboard-Driven
+
+Every common action is a chord away, and the chords match the Mac you
+already know.
+
+| Keys | Action |
+|---|---|
+| <kbd>J</kbd> <kbd>K</kbd> | Down and up the list |
+| <kbd>↩</kbd> <kbd>esc</kbd> | Into the page, and out |
+| <kbd>⌘</kbd> <kbd>K</kbd> | Search by title or text |
+| <kbd>⌘</kbd> <kbd>1</kbd> – <kbd>9</kbd> | Places and saved collections |
+| <kbd>F1</kbd> <kbd>F2</kbd> <kbd>F3</kbd> | Activity, notices and Share |
+
+### 03 · Agent-Native
+
+Made to work alongside your agent: it files, tags and revises pages for you.
+
+- Say "file it on shelf" in your own words; your agent knows the rest.
+- It reads the tags and house rules you set, so it files each page the way
+  you would.
+- It files in the background, out of your way.
+- Works with terminal agents, and with Claude Cowork, ChatGPT and other
+  desktop apps over MCP.
+
+## Safe to Open
+
+A page someone shares with you is code you've never read. On your shelf it
+runs in full, but it can't see your other pages, tell its sender when you
+opened it, open other apps, send what you type, or pull in new content.
 
 ## Install
 
-Sediment is in beta and needs macOS 26.0 or later.
+Sediment is in beta and requires macOS 26.0 or later.
 
 1. Download `Sediment-<version>.dmg` from the
    [latest release](https://github.com/unfussy-software/sediment-desktop-release/releases/latest).
 2. Open it and drag Sediment into your Applications folder.
-3. Launch Sediment and choose the folder your shelf will live in. Any folder
-   works, including one that iCloud Drive, Dropbox or OneDrive syncs.
+3. Launch Sediment and choose the folder your shelf will live in. Any
+   folder works, including one that iCloud Drive, Dropbox or OneDrive syncs.
 
-Signed and notarized. Sediment updates itself; see what changed in the
-[changelog](https://unfussy.software/sediment/changelog).
+Sediment is signed and notarized, and it updates itself.
 
-## Connect an Agent
+## Connect Your Agent
 
-Agents file to Sediment from wherever they run; where one runs decides how
-it connects.
+To connect an agent, start at
+[unfussy.software/sediment](https://unfussy.software/sediment).
+Full documentation is coming soon.
 
-### In a Terminal
+## Feedback
 
-Claude Code, Codex CLI and other terminal agents use the `sediment`
-command. Link it once from Sediment’s Settings ▸ Terminal, then install the
-skill, so the agent knows how to file, find and edit there:
+Found a problem or have a request?
+[Open an issue](https://github.com/unfussy-software/sediment-desktop-release/issues).
 
-```
-npx skills add unfussy-software/sediment-skills -g
-```
+<br>
 
-### In a Desktop App
-
-ChatGPT, Claude Desktop and other desktop apps reach Sediment through its
-MCP server. Paste this into a new conversation; the agent sets the server
-up the way its own app does, asks you for anything only you can do, and
-confirms when it works:
-
-```
-Connect this app to Sediment, the app on my Mac that keeps my HTML pages
-on a shelf. It offers an MCP server over stdio:
-
-  command:    /Applications/Sediment.app/Contents/Helpers/sediment
-  arguments:  mcp
-
-If it isn’t at that path, find the app by its bundle id,
-com.unfussysoftware.Sediment. If it isn’t installed, tell me and stop.
-
-Set the server up the way this app sets up a local MCP server; if a step
-is mine to take, tell me and wait. It starts Sediment itself when needed.
-
-You’ll see its tools in a new conversation. Then call tags: a reply means
-the connection works. Tell me in one sentence that Sediment is connected
-and how many tags my shelf has; if tags fails, tell me what it said.
-
-The server’s own instructions say how to file a page.
-```
-
-### In Claude Cowork
-
-A Claude Cowork agent runs in the cloud, not on your Mac, so it can’t set
-the server up itself. Install the
-[Sediment plugin](https://github.com/unfussy-software/sediment-plugin)
-instead: download `sediment.plugin` from its latest release and upload it
-under Customize ▸ Plugins.
-
-Then connect a folder to the conversation for the agent’s pages: any
-folder except your shelf’s, since a page saved there is already on the
-shelf. The agent saves each page there and Sediment files it from that
-folder. Without a folder, the agent can send a page of up to 32 KB
-straight to Sediment; for a larger page it sends nothing and asks you to
-connect one.
+<div align="center">
+<sub>
+Made by <a href="https://unfussy.software">Unfussy Software</a>
+&nbsp;·&nbsp; <a href="https://unfussy.software/sediment/privacy">Privacy</a>
+&nbsp;·&nbsp; <a href="https://unfussy.software/sediment/changelog">Changelog</a>
+</sub>
+</div>
