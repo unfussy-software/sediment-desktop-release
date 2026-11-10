@@ -13,6 +13,7 @@ a dashboard, a plan.<br>You read and organize them all in one place, on your Mac
 
 [**Download for macOS**](https://github.com/unfussy-software/sediment-desktop-release/releases/latest)
 &nbsp;·&nbsp; [Website](https://unfussy.software/sediment)
+&nbsp;·&nbsp; [Docs](https://unfussy.software/sediment/docs)
 &nbsp;·&nbsp; [Changelog](https://unfussy.software/sediment/changelog)
 
 <br>
@@ -75,28 +76,18 @@ Sediment is in beta and requires macOS 26.0 or later.
 1. Download `Sediment-<version>.dmg` from the
    [latest release](https://github.com/unfussy-software/sediment-desktop-release/releases/latest).
 2. Open it and drag Sediment into your Applications folder.
-3. Launch Sediment and choose the folder your shelf will live in. Any
-   folder works, including one that iCloud Drive, Dropbox or OneDrive syncs.
+3. Launch Sediment and choose the folder your shelf will live in.
 
 Sediment is signed and notarized, and it updates itself.
 
 ## Connect Your Agent
 
-To connect an agent, start at
-[unfussy.software/sediment](https://unfussy.software/sediment).
-Full documentation is coming soon.
+To connect Sediment to the agent you already use, in a terminal, a desktop
+app or Claude Cowork, follow the
+[documentation](https://unfussy.software/sediment/docs).
 
 ## Feedback
 
 Found a problem or have a request?
 [Open an issue](https://github.com/unfussy-software/sediment-desktop-release/issues).
 
-<br>
-
-<div align="center">
-<sub>
-Made by <a href="https://unfussy.software">Unfussy Software</a>
-&nbsp;·&nbsp; <a href="https://unfussy.software/sediment/privacy">Privacy</a>
-&nbsp;·&nbsp; <a href="https://unfussy.software/sediment/changelog">Changelog</a>
-</sub>
-</div>
