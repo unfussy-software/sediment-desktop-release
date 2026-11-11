@@ -60,8 +60,8 @@ Made to work alongside your agent: it files, tags and revises pages for you.
 - It reads the tags and house rules you set, so it files each page the way
   you would.
 - It files in the background, out of your way.
-- Works with terminal agents, and with Claude Cowork, ChatGPT and other
-  desktop apps over MCP.
+- It can check how a page looks in Sediment before you open it.
+- Works with terminal agents and over MCP.
 
 ## Safe to Open
 
