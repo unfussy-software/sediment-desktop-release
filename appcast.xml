@@ -20,7 +20,7 @@ code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:0.92em}
 .tally{margin-top:14px}
 </style>
 <header><h2>0.52.0</h2><time datetime="2026-11-19">19 November 2026</time></header>
-<p>Every artifact command is now in a row’s right-click, zoom has its own control in the toolbar, artifact links are shorter, agents file a page without asking unless your shelf’s instructions say to, and a shelf synced between Macs keeps up better.</p>
+<p>Every artifact command is now in a row’s right-click, zoom has its own control in the toolbar, artifact links are shorter, agents file what they make straight to your shelf, and a shelf synced between Macs keeps up better.</p>
 <p class="tally">6 changed · 3 fixed</p>
 ]]></description>
             <enclosure url="https://github.com/unfussy-software/sediment-desktop-release/releases/download/v0.52.0/Sediment-0.52.0.zip" length="12929700" type="application/octet-stream" sparkle:edSignature="SpGV9cBPAzfBcBrxcySkDVkBmMzzmi4SqXQwg/3lyYFWgmJwqMI0F1grRNPc2/tkm5hIaGV6PI0fchOg1zAiDQ=="/>
