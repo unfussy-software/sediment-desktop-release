@@ -47,7 +47,7 @@ already know.
 | Keys | Action |
 |---|---|
 | <kbd>J</kbd> <kbd>K</kbd> | Down and up the list |
-| <kbd>↩</kbd> <kbd>esc</kbd> | Into the page, and out |
+| <kbd>↩</kbd> <kbd>⎋</kbd> | Into the page, and out |
 | <kbd>⌘</kbd> <kbd>K</kbd> | Search by title or text |
 | <kbd>⌘</kbd> <kbd>1</kbd> – <kbd>9</kbd> | Places and saved collections |
 | <kbd>F1</kbd> <kbd>F2</kbd> <kbd>F3</kbd> | Activity, notices and Share |
@@ -57,11 +57,11 @@ already know.
 Made to work alongside your agent: it files, tags and revises pages for you.
 
 - Say "file it on shelf" in your own words; your agent knows the rest.
-- It reads the tags and house rules you set, so it files each page the way
+- It reads the tags and instructions you set, so it files each page the way
   you would.
 - It files in the background, out of your way.
 - It can check how a page looks in Sediment before you open it.
-- Works with terminal agents and over MCP.
+- Works with terminal agents, plugins, and over MCP.
 
 ## Safe to Open
 
@@ -82,8 +82,8 @@ Sediment is signed and notarized, and it updates itself.
 
 ## Connect Your Agent
 
-To connect Sediment to the agent you already use, in a terminal, a desktop
-app or Claude Cowork, follow the
+To connect Sediment to the agent you already use, in a terminal, through a
+plugin or over MCP, follow the
 [documentation](https://unfussy.software/sediment/docs).
 
 ## Feedback
