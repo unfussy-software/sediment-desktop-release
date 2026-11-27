@@ -3,6 +3,29 @@
     <channel>
         <title>Sediment</title>
         <item>
+            <title>0.55.0</title>
+            <pubDate>Fri, 27 Nov 2026 07:14:03 +0000</pubDate>
+            <sparkle:version>100</sparkle:version>
+            <sparkle:shortVersionString>0.55.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<style>
+:root{color-scheme:light dark;--i1:rgba(0,0,0,.85);--i2:rgba(0,0,0,.6);--hl:rgba(0,0,0,.09)}
+@media (prefers-color-scheme: dark){:root{--i1:rgba(255,255,255,.9);--i2:rgba(255,255,255,.6);--hl:rgba(255,255,255,.12)}}
+body{margin:0;padding:16px 20px 18px;color:var(--i1);font:400 14px/1.45 -apple-system,BlinkMacSystemFont,sans-serif;-webkit-font-smoothing:antialiased}
+header{display:flex;align-items:baseline;justify-content:space-between;gap:14px;padding-bottom:14px;margin-bottom:14px;border-bottom:1px solid var(--hl)}
+h2{margin:0;font:600 20px/1.2 -apple-system,BlinkMacSystemFont,sans-serif}
+time,.tally{color:var(--i2);font:400 11.5px/1.3 -apple-system,BlinkMacSystemFont,sans-serif;font-variant-numeric:tabular-nums}
+p{margin:0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:0.92em}
+.tally{margin-top:14px}
+</style>
+<header><h2>0.55.0</h2><time datetime="2026-11-27">27 November 2026</time></header>
+<p>The sidebar now shows each artifact’s description under its name, setting up an agent in a desktop app is guided step by step, and a large shelf in iCloud Drive stays smooth after launch and through the day.</p>
+<p class="tally">3 new · 3 changed · 7 fixed</p>
+]]></description>
+            <enclosure url="https://github.com/unfussy-software/sediment-desktop-release/releases/download/v0.55.0/Sediment-0.55.0.zip" length="13282224" type="application/octet-stream" sparkle:edSignature="69wTMbc5OywSEw6ZVXbK6LAGX0WuiiLaEAtZ0IasOXKebtgQiubD+E8LMnKDXc4B6me34fSj7+XXT3+JMhbwBQ=="/>
+        </item>
+        <item>
             <title>0.54.0</title>
             <pubDate>Tue, 24 Nov 2026 11:12:47 +0000</pubDate>
             <sparkle:version>99</sparkle:version>
@@ -47,29 +70,6 @@ code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:0.92em}
 <p class="tally">2 changed · 2 fixed</p>
 ]]></description>
             <enclosure url="https://github.com/unfussy-software/sediment-desktop-release/releases/download/v0.53.0/Sediment-0.53.0.zip" length="12970215" type="application/octet-stream" sparkle:edSignature="JbZ/2RzC+jBiBsgxHTSRkBfwqQytBMVrkDSkwzgbUVCcfqYL5DXGsuh16dT1FF0mkr1psKrOeyS5JhM8FQZeAg=="/>
-        </item>
-        <item>
-            <title>0.52.0</title>
-            <pubDate>Thu, 19 Nov 2026 01:30:57 +0000</pubDate>
-            <sparkle:version>97</sparkle:version>
-            <sparkle:shortVersionString>0.52.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<style>
-:root{color-scheme:light dark;--i1:rgba(0,0,0,.85);--i2:rgba(0,0,0,.6);--hl:rgba(0,0,0,.09)}
-@media (prefers-color-scheme: dark){:root{--i1:rgba(255,255,255,.9);--i2:rgba(255,255,255,.6);--hl:rgba(255,255,255,.12)}}
-body{margin:0;padding:16px 20px 18px;color:var(--i1);font:400 14px/1.45 -apple-system,BlinkMacSystemFont,sans-serif;-webkit-font-smoothing:antialiased}
-header{display:flex;align-items:baseline;justify-content:space-between;gap:14px;padding-bottom:14px;margin-bottom:14px;border-bottom:1px solid var(--hl)}
-h2{margin:0;font:600 20px/1.2 -apple-system,BlinkMacSystemFont,sans-serif}
-time,.tally{color:var(--i2);font:400 11.5px/1.3 -apple-system,BlinkMacSystemFont,sans-serif;font-variant-numeric:tabular-nums}
-p{margin:0}
-code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:0.92em}
-.tally{margin-top:14px}
-</style>
-<header><h2>0.52.0</h2><time datetime="2026-11-19">19 November 2026</time></header>
-<p>Every artifact command is now in a row’s right-click, zoom has its own control in the toolbar, artifact links are shorter, agents file what they make straight to your shelf, and a shelf synced between Macs keeps up better.</p>
-<p class="tally">6 changed · 3 fixed</p>
-]]></description>
-            <enclosure url="https://github.com/unfussy-software/sediment-desktop-release/releases/download/v0.52.0/Sediment-0.52.0.zip" length="12929700" type="application/octet-stream" sparkle:edSignature="SpGV9cBPAzfBcBrxcySkDVkBmMzzmi4SqXQwg/3lyYFWgmJwqMI0F1grRNPc2/tkm5hIaGV6PI0fchOg1zAiDQ=="/>
         </item>
         <item>
             <title>0.41.0</title>
